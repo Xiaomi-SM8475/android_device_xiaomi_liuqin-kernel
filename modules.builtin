@@ -474,7 +474,6 @@ kernel/net/sched/sch_fq_codel.ko
 kernel/net/sched/sch_fq.ko
 kernel/net/sched/cls_u32.ko
 kernel/net/sched/cls_fw.ko
-kernel/net/sched/cls_tcindex.ko
 kernel/net/sched/cls_basic.ko
 kernel/net/sched/cls_flow.ko
 kernel/net/sched/cls_bpf.ko
