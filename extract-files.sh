@@ -10,7 +10,7 @@ set -e
 ### Setup
 DUMP="${1}"
 MY_DIR="${BASH_SOURCE%/*}"
-declare -a MODULE_FOLDERS=("." "vendor_dlkm")
+declare -a MODULE_FOLDERS=("vendor_dlkm" "vendor_ramdisk")
 
 if [ ! -f "${MY_DIR}/Module.symvers" ]; then
     touch "${MY_DIR}/Module.symvers"
@@ -64,7 +64,7 @@ done
 
 # Copy
 for MODULE_FOLDER in "${MODULE_FOLDERS[@]}"; do
-    if [ "${MODULE_FOLDER}" == "." ]; then
+    if [ "${MODULE_FOLDER}" == "vendor_ramdisk" ]; then
         mkdir "${MY_DIR}/_temp"
         curl -L "https://github.com/cfig/Android_boot_image_editor/releases/download/v13_r3/boot_editor_v13r3.zip" > ${MY_DIR}/_temp/boot_editor_v13r3.zip
         unzip "${MY_DIR}/_temp/boot_editor_v13r3.zip" -d "${MY_DIR}/_temp/"
