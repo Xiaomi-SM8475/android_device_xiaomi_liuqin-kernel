@@ -51,7 +51,6 @@ qnoc-waipio.ko
 qti-fixed-regulator.ko
 reboot-mode.ko
 msm_geni_serial.ko
-ns.ko
 nvmem_qcom-spmi-sdam.ko
 phy-generic.ko
 phy-qcom-ufs.ko

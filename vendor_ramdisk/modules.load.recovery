@@ -51,7 +51,6 @@ qnoc-waipio.ko
 qti-fixed-regulator.ko
 reboot-mode.ko
 msm_geni_serial.ko
-ns.ko
 nvmem_qcom-spmi-sdam.ko
 phy-generic.ko
 phy-qcom-ufs.ko
@@ -109,6 +108,7 @@ msm_sysstats.ko
 zsmalloc.ko
 lzo.ko
 lzo-rle.ko
+cpq.ko
 msm_show_resume_irq.ko
 mhi_cntrl_qcom.ko
 mhi.ko
@@ -116,6 +116,8 @@ mhi_dev_uci.ko
 mhi_dev_netdev.ko
 mhi_dev_dtr.ko
 phy-qcom-ufs-qmp-v4-lahaina.ko
+phy-qcom-ufs-qmp-v4-parrot.ko
+phy-qcom-ufs-qmp-v4-anarok.ko
 phy-qcom-ufs-qmp-v3.ko
 phy-qcom-ufs-qmp-14nm.ko
 pinctrl-spmi-gpio.ko
@@ -216,13 +218,12 @@ asix.ko
 ax88179_178a.ko
 msm_sharedmem.ko
 phy-qcom-emu.ko
-phy-msm-ssusb-qmp.ko
+phy-msm-ssusb-qmp-m81.ko
 phy-msm-snps-hs.ko
 phy-msm-snps-eusb2.ko
 dwc3-msm.ko
 ehset.ko
 lvstest.ko
-ssusb-redriver-nb7vpq904m.ko
 usb_f_diag.ko
 usb_f_qdss.ko
 usb_f_ccid.ko
@@ -232,6 +233,8 @@ f_fs_ipc_log.ko
 ucsi_glink.ko
 repeater.ko
 repeater-i2c-eusb2.ko
+redriver.ko
+nb7vpq904m.ko
 atmel_mxt_ts.ko
 focaltech_fts.ko
 synaptics_dsx.ko
@@ -246,7 +249,7 @@ ir-spi.ko
 qcom_ipc_lite.ko
 synx-driver.ko
 qcom-pon.ko
-qti_battery_charger.ko
+qti_battery_charger_main_m81.ko
 xm_power.ko
 qcom-spmi-temp-alarm.ko
 qti-adc-tm.ko
