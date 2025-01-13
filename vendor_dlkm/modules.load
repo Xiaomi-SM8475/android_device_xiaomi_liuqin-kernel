@@ -108,8 +108,6 @@ cnss_plat_ipc_qmi_svc.ko
 cnss_nl.ko
 cnss_prealloc.ko
 mi_cnss_statistic.ko
-asix.ko
-ax88179_178a.ko
 msm_sharedmem.ko
 phy-qcom-emu.ko
 phy-msm-ssusb-qmp-m81.ko
@@ -173,6 +171,7 @@ gplaf_vendor.ko
 tz_log.ko
 qce50.ko
 qcedev-mod.ko
+mi_mempool.ko
 extend_reclaim.ko
 binder_prio.ko
 ipa_fmwk.ko
