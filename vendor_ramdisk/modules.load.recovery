@@ -45,6 +45,7 @@ mem_buf.ko
 mem-hooks.ko
 memory_dump_v2.ko
 minidump.ko
+miev.ko
 msm_dma_iommu_mapping.ko
 pinctrl-waipio.ko
 qnoc-waipio.ko
